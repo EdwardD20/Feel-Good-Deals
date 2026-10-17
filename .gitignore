@@ -1,0 +1,36 @@
+# macOS metadata
+.DS_Store
+
+# Local service aliases and image folders
+/WebServices
+/WebServices Instructions
+/z4KSImages/
+/zAppImages/
+
+# Android signing credentials and generated files
+# Android local configuration and release outputs
+/Android/keystore.properties
+/Android/_PlayStoreKey.txt
+/Android/Android Build*.rtf
+/Android/local.properties
+/Android/app/release/
+/Android/_PlayStoreKey.rtf
+**/Screenshot*.png
+**/*.aab
+**/*.apk
+**/*.jks
+**/*.keystore
+**/.gradle/
+**/.idea/
+**/.kotlin/
+/Android/**/build/
+
+# Apple Wallet signing material and passwords
+**/*.p12
+**/*.pem
+**/password*.rtf
+
+# Xcode user-specific and generated files
+**/xcuserdata/
+*.xcuserstate
+/DerivedData/
